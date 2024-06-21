@@ -6,6 +6,6 @@
 2 - Footer is not responsive yet. <br>
 3 - Background color not changed yet. <br>
 4 - Profile section in Navbar not added yet. <br>
-4 - Check the basic Layout, and let me know.
+5 - Check the basic Layout, and let me know.
 
 **Branch created by - <a href="https://github.com/Saumyajeet-Varma">Saumyajeet Varma</a>**
