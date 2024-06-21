@@ -19,6 +19,8 @@
         href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+NL:wght@100..400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
     <!-- Link to connect Awesomefonts -->
     <link rel="stylesheet" href="path/to/fontawesome.min.css">
@@ -34,7 +36,6 @@
 <body>
 
     <header>
-
         <nav class="navbar">
             <div class="logo">
                 <img src="assets/bootcamp_logo_wo_bg.png" alt="">
@@ -62,34 +63,28 @@
 
     <main>
 
-        <div class="welcome">
+        <!-- <div class="welcome">
             <p>Welcome</p>
+        </div> -->
+
+        <div id="container">
+            <span id="text1"></span>
+            <span id="text2"></span>
         </div>
+        
+        <svg id="filters">
+            <defs>
+                <filter id="threshold">
+                    <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                          0 1 0 0 0
+                          0 0 1 0 0
+                          0 0 0 255 -140" />
+                </filter>
+            </defs>
+        </svg>
 
         <div class="content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae debitis ea libero ipsa sunt laborum
-                iste qui quos, quam saepe aperiam, commodi non possimus pariatur illum quas in voluptatum ipsam incidunt
-                eaque facilis beatae. Dolor dolorem cupiditate, nemo reiciendis laudantium enim ipsa numquam ad quas
-                iste rem tempore eligendi unde deleniti pariatur similique, mollitia quae adipisci suscipit saepe
-                voluptatem? Veniam perspiciatis ullam perferendis ducimus quaerat nesciunt qui tenetur hic ex cumque
-                recusandae eius nemo modi nam quam sapiente ab id aliquid, minus incidunt ratione esse doloribus non
-                vel. Corrupti quas similique excepturi, nihil commodi deserunt deleniti natus aliquid veniam facere
-                tempora quaerat architecto doloribus? Est dolores hic tempore dignissimos nisi eveniet, sed velit
-                consequuntur, esse illum sit repudiandae. Numquam, dolore! Quis, veritatis. Velit amet eveniet quo quam
-                atque hic modi, ab debitis deserunt, temporibus numquam commodi labore impedit omnis voluptates autem.
-                Nulla ea doloribus magnam, quibusdam ullam omnis unde dolor voluptatibus a itaque consectetur deleniti
-                officiis impedit expedita corporis perspiciatis veritatis animi, tempore beatae natus quis modi commodi
-                voluptatem. Mollitia porro, ratione inventore eius voluptatum dolores, totam sapiente magni, odit nobis
-                deserunt eligendi. Veritatis, debitis dolores labore, saepe quibusdam ipsum reprehenderit harum
-                inventore quo reiciendis eos necessitatibus voluptas delectus. Enim eum animi recusandae aliquam sequi.
-                Laboriosam, aliquam quia voluptas, et velit quod deleniti error ducimus ratione assumenda consectetur
-                totam, quo asperiores molestiae voluptatibus dolorem dicta? Voluptas architecto nemo culpa sed corrupti
-                magnam in nulla, placeat accusantium, incidunt officiis. Consequuntur id quas itaque asperiores, autem
-                reiciendis iure velit, omnis, quisquam illum doloribus quia adipisci? Exercitationem laudantium aliquam,
-                non amet repellendus nobis aliquid culpa explicabo ut quam voluptatibus dolores autem alias, quo libero
-                consequatur suscipit possimus praesentium delectus a! Sit voluptatem, nulla perspiciatis qui, vitae
-                repudiandae tempore autem optio libero distinctio nam ducimus aperiam nesciunt possimus eos sapiente
-                totam? Quaerat, beatae aut?</p>
+            <p>Discover the future of tech with our Computer Engineering students. Explore their profiles, skills, and innovative projects. Meet the next generation of engineers, ready to lead and inspire. Welcome to Bootcamp – where talent meets technology.</p>
         </div>
 
         <div class="carousel-container">
