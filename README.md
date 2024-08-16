@@ -1,3 +1,3 @@
 # CE-Bootcamp
 
-link - <a href="https://ce-bootcamp-ejs.onrender.com/home" target="_blank">CE Bootcamp</a>
+link - <a href="https://ce-bootcamp-ejs.onrender.com/home">CE Bootcamp</a>
