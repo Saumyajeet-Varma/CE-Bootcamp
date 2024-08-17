@@ -1,7 +1,6 @@
 # CE-Bootcamp
 
-**The Following Links are Expired**
-
+**The Following Links are Expired** <br>
 **Home Page** - <a href="https://saumyajeet-varma.github.io/Test/">Link</a> <br>
 **Batch** - <a href="https://saumyajeet-varma.github.io/Test2/">Link</a> <br>
 
